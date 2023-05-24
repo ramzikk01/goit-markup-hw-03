@@ -106,6 +106,7 @@ body {
 
 .studio {
     color: #2e2f42;
+    margin-right: 76px;
 }
 
 
@@ -160,12 +161,9 @@ body {
     margin-bottom: 0;
 }
 
-.webstudio{
-    margin-right: 76px;
-}
 
 .nav-link a {
-    margin-right: 40px;
+
     padding: 24px 0;
 }
 
