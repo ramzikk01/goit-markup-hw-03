@@ -85,6 +85,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    display: inline-block;
 
 }
 
@@ -364,7 +365,7 @@ body {
     color: var(--primery-text-color);
 }
 
-.font-app {
+.font-app{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -373,7 +374,6 @@ body {
     letter-spacing: 0.02em;
     color: var(--primery-text-color);
     margin-left: 16px;
-    text-align: left;
 }
 
 .font-top-title {
@@ -452,12 +452,13 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 0;
-    justify-content: center
+    justify-content: center;
+    margin-bottom: 72px;
 }
 
 .nav-but .item {
     margin-right: 24px;
-    margin-bottom: 72px;
+
 
 }
 
@@ -469,6 +470,14 @@ body {
 .button-nav button:focus {
     color: var(--primery-white-color);
     background: var(--button-acktiv-color);
+    border: 1px solid transparent
+}
+
+.site-web{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px
 }
 
 .menu {
@@ -558,6 +567,8 @@ body {
 .footer-section {
     padding-top: 101.5px;
 }
+
+
 
 .font-footer {
     max-width: 264px;
