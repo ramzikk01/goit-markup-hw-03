@@ -104,9 +104,13 @@ body {
     text-transform: uppercase;
 }
 
+.nav-link > a{
+    margin-right: 76px;
+}
+
 .studio {
     color: #2e2f42;
-    margin-right: 76px;
+    /* margin-right: 76px; */
 }
 
 
@@ -390,8 +394,6 @@ body {
     text-transform: capitalize;
 
 }
-
-
 
 .foto-type {
     display: flex;
