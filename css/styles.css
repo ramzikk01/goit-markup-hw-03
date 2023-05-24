@@ -35,6 +35,10 @@ body {
     /* outline:2px solid red; */
 }
 
+.header{
+    border-bottom: 1px solid #e7e9fc;
+}
+
 .portfolio{
     padding: 96px 0 120px 0;
 }
@@ -85,7 +89,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    display: inline-block;
+    display: inline-block
 
 }
 
@@ -103,6 +107,8 @@ body {
 .studio {
     color: #2e2f42;
 }
+
+
 
 .studio-log {
     color: var(--footer-logo-color);
@@ -126,10 +132,7 @@ body {
     margin-left: auto;
     margin-top: 0;
     border-bottom: 1px solid #e7e9fc;
-
-
 }
-
 
 
 .site-nav {
@@ -155,16 +158,19 @@ body {
     align-items: center;
     margin-top: 0;
     margin-bottom: 0;
+}
 
+.webstudio{
+    margin-right: 76px;
 }
 
 .nav-link a {
-    margin-right: 72px;
+    margin-right: 40px;
     padding: 24px 0;
 }
 
 .site-nav .item:last-child {
-    margin: right 40px;
+    margin-right: 0px;
 }
 
 .site-nav a {
@@ -392,11 +398,12 @@ body {
 .foto-type {
     display: flex;
     margin: 0;
+    
 }
 
 .foto-type .item {
-    width: calc((100% - 3 * 16px) / 3);
-    margin-left: 24px;
+    width: calc((100% - 48px) / 3);
+    margin-right: 24px;
 }
 
 .foto-type .item:last-child {
@@ -526,13 +533,14 @@ body {
     padding-bottom: 0;
     margin-bottom: 0px;
     display: flex;
-    margin-right: 24px;
+    
 }
 
 
 .team-people .item {
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
+    margin-right: 24px;
 }
 
 .team-people .item:last-child {
