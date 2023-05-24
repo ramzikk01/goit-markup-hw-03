@@ -35,6 +35,10 @@ body {
     /* outline:2px solid red; */
 }
 
+.portfolio{
+    padding: 96px 0 120px 0;
+}
+
 .foto {
     display: block;
 }
@@ -247,6 +251,7 @@ body {
 
 
 }
+
 
 .button {
     background: var(--accent-text-color);
