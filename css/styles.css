@@ -129,6 +129,12 @@ body {
     margin-right: 40px;
 }
 
+.site-nav li:last-child{
+    margin-right: 0;
+}
+
+
+
 
 .site-nav {
     display: flex;
@@ -138,14 +144,14 @@ body {
     padding-left: 0; 
 
 }
-.site-nav .item {
+/* .site-nav .item {
     margin-right: 40px;
     padding-top: 24px;
     padding-bottom: 24px;
-}
-.site-nav .item:last-child {
+} */
+/* .site-nav .item:last-child {
     margin-right: 0;
-}
+} */
 
 .nav-link {
     display: flex;
