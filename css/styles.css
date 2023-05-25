@@ -132,10 +132,6 @@ body {
 .site-nav li:last-child{
     margin-right: 0;
 }
-
-
-
-
 .site-nav {
     display: flex;
     margin-top: 0;
@@ -210,10 +206,13 @@ body {
     margin-left: auto;
 }
 
-.contakt .item+.item {
-    margin-left: 40px;
+.contakt li {
+    margin-right: 40px;
 }
 
+.contakt li:last-child{
+    margin-right: 0;
+}
 .contakt :hover,
 .contakt :focus {
     color: var(--button-acktiv-color);
@@ -387,8 +386,13 @@ body {
 
 }
 
+.margin{
+    padding-top: 0;
+}
 .foto-type {
     display: flex;
+    margin: 0;
+    padding: 0;
 }
 
 .foto-type .item {
