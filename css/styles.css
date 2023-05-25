@@ -32,7 +32,7 @@ body {
     margin: 0 auto;
     padding: 0 15px;
     max-width: 1158px;
-    /* outline:2px solid red; */
+     /* outline:2px solid red;  */
 }
 
 .header{
@@ -571,6 +571,7 @@ body {
 .footer-section {
     display: inline-block;
     margin-bottom: 16px;
+    display: flex;
 }
 
 
