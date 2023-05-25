@@ -125,20 +125,24 @@ body {
 }
 
 
+.site-nav li{
+    margin-right: 40px;
+}
+
+
 .site-nav {
     display: flex;
     margin-top: 0;
     margin-bottom: 0;
     margin-left: 0;
-    padding-left: 0;
-}
+    padding-left: 0; 
 
+}
 .site-nav .item {
     margin-right: 40px;
     padding-top: 24px;
     padding-bottom: 24px;
 }
-
 .site-nav .item:last-child {
     margin-right: 0;
 }
@@ -560,6 +564,9 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     display: inline-block;
+}
+
+.footer-section a{
     margin-bottom: 16px;
 }
 
