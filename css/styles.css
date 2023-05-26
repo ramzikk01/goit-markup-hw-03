@@ -40,7 +40,7 @@ body {
 }
 
 .portfolio{
-    padding: 0;
+    padding-top: 96px;
 }
 
 .foto {
@@ -301,8 +301,7 @@ body {
 }
 
 .section-strategy{
-        padding-top: 120px;
-        padding-bottom: 0;
+    padding: 120px 0;
 }
 
 .title-site {
@@ -443,7 +442,6 @@ body {
 
 .nav-but {
     display: flex;
-    padding-top: 96px;
     margin-top: 0;
     margin-left: auto;
     margin-right: auto;
