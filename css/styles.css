@@ -40,7 +40,7 @@ body {
 }
 
 .portfolio{
-    padding: 96px 0 120px 0;
+    padding: 0;
 }
 
 .foto {
@@ -67,10 +67,7 @@ body {
 }
 
 
-.strategy {
-    padding-top: 120px;
 
-}
 
 .logo {
     color: var(--accent-text-color);
@@ -116,7 +113,6 @@ body {
     align-items: center;
     margin-left: auto;
     margin-top: 0;
-    border-bottom: 1px solid #e7e9fc;
 }
 
 
@@ -304,6 +300,11 @@ body {
 
 }
 
+.section-strategy{
+        padding-top: 120px;
+        padding-bottom: 0;
+}
+
 .title-site {
     display: flex;
 }
@@ -366,6 +367,7 @@ body {
     letter-spacing: 0.02em;
     color: var(--primery-text-color);
     margin-left: 16px;
+    margin-bottom: 0;
 }
 
 .font-top-title {
@@ -471,7 +473,7 @@ body {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px
+
 }
 
 .menu {
@@ -485,7 +487,7 @@ body {
     width: 360px;
     margin-right: 24px;
     margin-bottom: 48px;
-    border: 1px solid #E7E9FC;
+
 }
 
 .menu .item:nth-child(3n) {
@@ -576,9 +578,9 @@ body {
 
 .font-footer {
     max-width: 264px;
-    padding-bottom: 100px;
     color: var(--footer-logo-color);
     margin-top: 0;
+    margin-bottom: 0;
     
 
 }
