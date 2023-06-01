@@ -305,6 +305,10 @@ body {
     padding: 120px 0;
 }
 
+.section-three{
+    border-top: 0;
+}
+
 .title-site {
     display: flex;
 }
